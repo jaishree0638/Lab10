@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 import static org.junit.Assert.*;
 
@@ -22,6 +23,15 @@ public class testSelectionSort {
     @Test
     public void testPositive(){
         int[] arr = new int[5];
+=======
+/*
+test mixed and duplicate
+*/
+
+@Test
+    public void testMixed(){
+    	int[] arr = new int[5];
+>>>>>>> branch2
         arr[0] = 8;
         arr[1] = 9;
         arr[2] = 7;
@@ -56,6 +66,7 @@ public class testSelectionSort {
         sort.basicSelectionSort(arr);
         assertArrayEquals(arr, Sortedarr);
     }
+<<<<<<< HEAD
 
     /*
       test mixed and duplicate
@@ -63,3 +74,5 @@ public class testSelectionSort {
     
   }
 >>>>>>> branch1
+=======
+>>>>>>> branch2
