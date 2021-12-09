@@ -1,58 +1,6 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*
+test mixed and duplicate
+*/
 
 @Test
     public void testMixed(){
@@ -91,5 +39,3 @@
         sort.basicSelectionSort(arr);
         assertArrayEquals(arr, Sortedarr);
     }
-
-}
