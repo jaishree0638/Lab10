@@ -54,3 +54,9 @@ public class testSelectionSort {
         sort.basicSelectionSort(arr);
         assertArrayEquals(arr, Sortedarr);
     }
+
+    /*
+      test mixed and duplicate
+    */
+    
+  }
